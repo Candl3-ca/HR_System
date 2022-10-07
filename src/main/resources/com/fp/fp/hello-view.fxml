@@ -11,6 +11,7 @@
 <?import javafx.scene.control.Labeled?>
 
 <?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
 <VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
       fx:controller="com.fp.fp.HelloController">
     <padding>
@@ -19,4 +20,11 @@
 
     <Label fx:id="welcomeText"/>
     <Button text="Click to proceed" onAction="#onHelloButtonClick"/>
+
+    <!--<HBox spacing="20.0">
+        <Button text="Click to proceed" onAction="#onHelloButtonClick"/>
+        <Button text="Click to proceed" onAction="#onHelloButtonClick"/>
+
+    <Button text="Click to proceed" onAction="#onHelloButtonClick"/>-->
+
 </VBox>

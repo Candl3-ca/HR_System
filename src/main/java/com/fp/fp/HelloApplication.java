@@ -3,6 +3,7 @@ package com.fp.fp;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.scene.text.Font;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.paint.Color;
@@ -37,6 +38,7 @@ public class HelloApplication extends Application {
         Scene scene = new Scene(fxmlLoader.load(), 320, 240);
         stage.setTitle("HR_System");
         stage.setScene(scene);
+//        stage.getIcons().add(new Image("path to the icon")); this is how you add an icon to the window, as well as changing the icon on the taskbar
         stage.show();
     }
 
