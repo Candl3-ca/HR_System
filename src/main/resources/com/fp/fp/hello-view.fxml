@@ -20,6 +20,3 @@
     <Label fx:id="welcomeText"/>
     <Button text="Click to proceed" onAction="#onHelloButtonClick"/>
 </VBox>
-<GridPane>
-
-</GridPane>
