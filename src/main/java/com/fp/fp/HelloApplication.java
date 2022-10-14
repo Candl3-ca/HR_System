@@ -9,6 +9,9 @@ import javafx.scene.layout.AnchorPane;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 
+import java.io.*;
+
+
 import java.io.IOException;
 
 public class HelloApplication extends Application {
@@ -22,6 +25,11 @@ public class HelloApplication extends Application {
         // <Font name="Arial bold" size="20" fontWeight="bold" (fontweight doesn't exist though, to add bold insert it  in the font name)>
         // </font>
         // </Label>
+
+        File file = new File("C:\\Users\\Candl3\\IdeaProjects\\Fp\\info.txt");
+        FileWriter fw = new FileWriter(file);
+        PrintWriter pw = new PrintWriter(fw);
+
 
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
 
