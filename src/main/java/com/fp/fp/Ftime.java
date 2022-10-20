@@ -16,9 +16,24 @@ public class Ftime extends Professor implements PayRoll {
         this.degreeRate = degreeRate;
     }
 
-    public void Payroll(int degreeRate) {
-        System.out.println("Payroll for Full-time Professor");
-        double salary = (32 * degreeRate * 2) * 0.85;
+
+    @Override
+    public void Payroll() {
+
+    }
+
+    @Override
+    public void FTPayroll(int degreeRate) {
+        System.out.println("The payroll for " + getFirstName() + " " + getLastName() + " is " + /*() + */ " dollars.");
+    }
+
+    @Override
+    public void PTPayroll(int degreeRate, int hoursWorked) {
+
+    }
+
+    @Override
+    public void SPayroll(int workload) {
 
     }
 }

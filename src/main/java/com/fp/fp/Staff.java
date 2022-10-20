@@ -42,11 +42,6 @@ public class Staff extends Person implements PayRoll {
     }
 
 
-    @Override
-    public void Payroll(int workload) {
-        System.out.println("Payroll for Staff");
-        double salary = (workload * 32 * 2) * 0.75;
-    }
 
 
     public void VerifyWorkload(int workload) {
@@ -82,4 +77,23 @@ public class Staff extends Person implements PayRoll {
         return Objects.hash(super.hashCode(), getDuty(), getWorkload(), getDepartmentID());
     }
 
+    @Override
+    public void Payroll() {
+
+    }
+
+    @Override
+    public void FTPayroll(int degreeRate) {
+
+    }
+
+    @Override
+    public void PTPayroll(int degreeRate, int hoursWorked) {
+
+    }
+
+    @Override
+    public void SPayroll(int workload) {
+        System.out.println("The payroll for " + getFirstName() + " " + getLastName() + " is " + /*() + */ " dollars.");
+    }
 }

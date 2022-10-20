@@ -27,11 +27,25 @@ public class Ptime extends Professor implements PayRoll {
         this.hoursWorked = hoursWorked;
     }
 
-    public void Payroll(int degreeRate, int hoursWorked) {
-        System.out.println("Payroll for Part-time Professor");
-        double salary = (32 * degreeRate * 2) * 0.75;
+
+    @Override
+    public void Payroll() {
 
     }
 
+    @Override
+    public void FTPayroll(int degreeRate) {
 
+    }
+
+    @Override
+    public void PTPayroll(int degreeRate, int hoursWorked) {
+        System.out.println("The payroll for " + getFirstName() + " " + getLastName() + " is " + /*() + */ " dollars.");
+    }
+
+    @Override
+    public void SPayroll(int workload) {
+
+
+    }
 }
