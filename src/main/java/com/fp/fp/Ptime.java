@@ -48,4 +48,9 @@ public class Ptime extends Professor implements PayRoll {
 
 
     }
+
+    @Override
+    public void welcomeUser() {
+        System.out.println("Welcome " + getFirstName() + " " + getLastName() + "!");
+    }
 }

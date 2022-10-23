@@ -26,9 +26,15 @@ public class HelloApplication extends Application {
         // </font>
         // </Label>
 
-        File file = new File("C:\\Users\\Candl3\\IdeaProjects\\Fp\\info.txt");
-        FileWriter fw = new FileWriter(file);
-        PrintWriter pw = new PrintWriter(fw);
+
+
+
+
+//        This is the file writer class used to write objects in and out of the txt file
+//
+//        File file = new File("".); // this is the file path
+//        FileWriter fw = new FileWriter(file);
+//        PrintWriter pw = new PrintWriter(fw);
 
 
         FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));

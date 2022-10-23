@@ -23,6 +23,9 @@ public abstract class Person {
         this.Phone = Phone;
     }
 
+    abstract void welcomeUser();
+
+
     public int getPersonID() {
         return PersonID;
     }

@@ -115,4 +115,9 @@ public class Professor extends Person implements PayRoll {
     public void SPayroll(int workload) {
 
     }
+
+    @Override
+    public void welcomeUser() {
+        System.out.println("Welcome " + getFirstName() + " " + getLastName() + "!");
+    }
 }
