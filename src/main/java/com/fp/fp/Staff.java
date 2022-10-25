@@ -94,11 +94,12 @@ public class Staff extends Person implements PayRoll {
 
     @Override
     public void SPayroll(int workload) {
-        System.out.println("The payroll for " + getFirstName() + " " + getLastName() + " is " + /*() + */ " dollars.");
+        System.out.println("The payroll for " + getFirstName() + " " + getLastName() + " is " + ((workload * 32 * 2) * 0.75 )+ " dollars.");
     }
 
     @Override
     public void welcomeUser() {
         System.out.println("Welcome " + getFirstName() + " " + getLastName() + "!");
     }
+
 }

@@ -78,23 +78,23 @@ public class Professor extends Person implements PayRoll {
 
 //    Need to verify if the ID is valid for both the person and the department. If the ID is not valid, the user will be prompted to re-enter the ID and throw an illegal exception.
 
-    public void VerifyDepartment() {
-        System.out.println("Input your Department ID");
-         DepartmentID = sc.nextInt();
-        if (DepartmentID != null) {
-            System.out.println("Department ID is valid");
-        } else {
-            throw new IllegalArgumentException("Department ID is invalid");
-        }
-    }
-
-    public void VerifyID(int PersonID) {
-        if (PersonID != null) {
-            System.out.println("ID is valid");
-        } else {
-            throw new IllegalArgumentException("ID is invalid");
-        }
-    }
+//    public void VerifyDepartment() {
+//        System.out.println("Input your Department ID");
+//         DepartmentID = sc.nextInt();
+//        if (DepartmentID != null) {
+//            System.out.println("Department ID is valid");
+//        } else {
+//            throw new IllegalArgumentException("Department ID is invalid");
+//        }
+//    }
+//
+//    public void VerifyID(int PersonID) {
+//        if (PersonID != null) {
+//            System.out.println("ID is valid");
+//        } else {
+//            throw new IllegalArgumentException("ID is invalid");
+//        }
+//    }
 
     @Override
     public void Payroll() {

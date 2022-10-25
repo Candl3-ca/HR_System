@@ -5,7 +5,8 @@ public class Ptime extends Professor implements PayRoll {
     private int degreeRate;
     private int hoursWorked;
 
-    public Ptime(int PersonID, String FirstName, String LastName, String Email, String address, String Category, String Password, String Phone, String speciality, int DepartmentID, boolean isDean, String degree, int degreeRate, int hoursWorked) {
+    public Ptime(int PersonID, String FirstName, String LastName, String Email, String address, String Category, String Password, String Phone,
+                 String speciality, int DepartmentID, boolean isDean, String degree, int degreeRate, int hoursWorked) {
         super(PersonID, FirstName, LastName, Email, address, Category, Password, Phone, speciality, DepartmentID, isDean, degree);
         this.degreeRate = degreeRate;
         this.hoursWorked = hoursWorked;
@@ -40,7 +41,8 @@ public class Ptime extends Professor implements PayRoll {
 
     @Override
     public void PTPayroll(int degreeRate, int hoursWorked) {
-        System.out.println("The payroll for " + getFirstName() + " " + getLastName() + " is " + /*() + */ " dollars.");
+        System.out.println("The payroll for " + getFirstName() + " " + getLastName() + " is " + ((hoursWorked * degreeRate *2) *
+                0.76) + " dollars.");
     }
 
     @Override
