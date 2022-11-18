@@ -1,0 +1,2 @@
+1,Staff,1,William,John,abc@email.com,abc,1234,2837238,Worker,20,false
+2,FullTimeProfessor,1,Jim,Sin,def@email.com,k ksi f,1111,23394994,Computing,PhD,false

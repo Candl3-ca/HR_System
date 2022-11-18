@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="568.0" prefWidth="606.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.fp.fp.HomeController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="5.0" layoutY="46.0" prefHeight="30.0" prefWidth="601.0" text="HR System">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="157.0" layoutY="230.0" mnemonicParsing="false" onAction="#addStaff" prefHeight="51.0" prefWidth="300.0" text="Add Staff" />
+      <Button layoutX="157.0" layoutY="312.0" mnemonicParsing="false" onAction="#addProfessor" prefHeight="51.0" prefWidth="300.0" text="Add Professor" />
+      <Button layoutX="157.0" layoutY="399.0" mnemonicParsing="false" onAction="#displayAll" prefHeight="51.0" prefWidth="300.0" text="Display All" />
+      <Button layoutX="154.0" layoutY="480.0" mnemonicParsing="false" onAction="#exit" prefHeight="51.0" prefWidth="300.0" text="Exit" />
+      <Button layoutX="157.0" layoutY="148.0" mnemonicParsing="false" onAction="#addDepartment" prefHeight="51.0" prefWidth="300.0" text="Add Department" />
+   </children>
+</AnchorPane>
