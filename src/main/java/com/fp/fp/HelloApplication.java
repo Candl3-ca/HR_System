@@ -3,56 +3,23 @@ package com.fp.fp;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
-import javafx.scene.image.Image;
-import javafx.scene.text.Font;
-import javafx.scene.layout.AnchorPane;
-import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 
-import java.io.*;
-
-
 import java.io.IOException;
+import javafx.scene.Parent;
 
 public class HelloApplication extends Application {
+
+    public static HRSystem system = new HRSystem();
+
     @Override
     public void start(Stage stage) throws IOException {
-        // you can set the sample FX like this:
-        // insert code in the gridPane
-        // creat <Label> in the gridPane
-        // <Label text = "insert text here" textFill="green">
-        // <font>
-        // <Font name="Arial bold" size="20" fontWeight="bold" (fontweight doesn't exist though, to add bold insert it  in the font name)>
-        // </font>
-        // </Label>
+        system.loadData();
+        Parent root = FXMLLoader.load(getClass().getResource("Home.fxml"));
 
-
-
-
-
-//        This is the file writer class used to write objects in and out of the txt file
-//
-//        File file = new File("".); // this is the file path
-//        FileWriter fw = new FileWriter(file);
-//        PrintWriter pw = new PrintWriter(fw);
-
-
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
-
-        // or like this:
-        // GridPane root = new GridPane();
-        // root.setAlignment(Pos.CENTER);
-        // root.setHgap(10);
-        // root.setVgap(10);
-
-        // To set font size and color
-        // greeting.setFont(Font.font("Arial", FontWeight.BOLD, 20));
-        // greeting.setFill(Color.GREEN);
-
-        Scene scene = new Scene(fxmlLoader.load(), 320, 240);
+        Scene scene = new Scene(root);
         stage.setTitle("HR_System");
         stage.setScene(scene);
-//        stage.getIcons().add(new Image("path to the icon")); this is how you add an icon to the window, as well as changing the icon on the taskbar
         stage.show();
     }
 
