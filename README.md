@@ -18,13 +18,9 @@ I'm making this completely open source, feel free to fork and create your own ve
 
 **For future updates**
 Task                                     | Status
------------------------------------------|-------------------
+
 1) Make the printing look more organised | Not yet done.
------------------------------------------|-------------------
-2) Make the GUI look better rather       | Not yet done.
-than remaining basic                     |   
------------------------------------------|-------------------
-3) Allow for an option with a login      | Not yet done.
-system and profile management            |
------------------------------------------|-------------------
------------------------------------------|-------------------
+
+2) Make the GUI look better ratherthan remaining basic | Not yet done.   
+
+3) Allow for an option with a login system and profile management | Not yet done.
