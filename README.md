@@ -17,7 +17,8 @@ I'm making this completely open source, feel free to fork and create your own ve
 
 
 **For future updates**
-Task                                     | Status
+
+Task | Status
 
 1) Make the printing look more organised | Not yet done.
 
