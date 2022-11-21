@@ -3,9 +3,14 @@
 **My first desktop application built in Java for a human resource management system.**
 
 *Things you can do in the application*
+
 1- Check all the staff/professors.
+
 2- Add new staff, professor or a department to the system.
+
 3- View all the employees, payrolls per department.
+
+
 
 in other words, you manage the system as an administrator.
 
@@ -14,6 +19,8 @@ To begin, install the application vvv
 -> Then you can add all the departments, then all employees in the department.
 
 I'm making this completely open source, feel free to fork and create your own version!
+
+
 
 
 **For future updates**
