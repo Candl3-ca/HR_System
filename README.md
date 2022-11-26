@@ -15,6 +15,7 @@
 in other words, you manage the system as an administrator.
 
 To begin, install the application vvv
+
 [https://github.com/Candl3-ca/HR_System/releases/tag/alpha_v1.0.0](url)
 
 -> Then you can add all the departments, then all employees in the department.
