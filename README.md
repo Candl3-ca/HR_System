@@ -29,9 +29,30 @@ I'm making this completely open source, feel free to fork and create your own ve
 **For future updates**
 
 Task | Status
-
-1) Make the printing look more organised | Not yet done.
-
+------------------------------------------------------------------
+1) Make the printing look more organised as well as allowing for a search/sort option | Not yet done.
+------------------------------------------------------------------
 2) Make the GUI look better ratherthan remaining basic | Not yet done.   
-
+-----------------------------------------------------------------
 3) Allow for an option with a login system and profile management | Not yet done.
+------------------------------------------------------------------
+4) Make passwords auto generated, hidden as well | Not yet done.
+------------------------------------------------------------------
+5) Adding a seperate dean adding profile | Not yet done.
+------------------------------------------------------------------
+6) Update the screen resolution to adjust to different sizes | Not yet done.
+------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+Found bugs : 
+
+1) A professor and a dean may contain the same ID.
+------------------------------------------------------------------
+2) Department auto deletes if it does not contain any staff or professor
